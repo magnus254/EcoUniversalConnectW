@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@color/colorBlack">
+
+
+   <TextView
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:text="Eco"
+       android:layout_marginTop="40dp"
+       android:layout_marginStart="20dp"
+       android:textColor="@color/colorGreen"
+       android:textSize="70dp"
+       />
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="150dp"
+        android:layout_marginTop="45dp"
+        android:text="Universal"
+        android:textColor="@color/colorWhite"
+        android:textSize="60dp"
+        />
+
+
+
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Help   save  the   world"
+        android:layout_marginTop="150dp"
+        android:textColor="@color/colorWhite"
+        android:textSize="20dp"
+        android:layout_marginStart="100dp"
+
+        />
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_marginTop="150dp"
+        android:src="@drawable/mainactivity"
+        android:id="@+id/iv_imageView_id"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/iv_imageView_id"
+        android:text="Creat account"
+        android:layout_marginTop="5dp"
+        android:textSize="20dp"
+        android:id="@+id/bt_creatAccont_id"
+        android:textColor="@color/colorWhite"
+        android:background="@color/colorBlack"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Already have an account? "
+        android:id="@+id/tv_loginText_id"
+        android:layout_below="@id/bt_creatAccont_id"
+        android:textColor="@color/colorWhite"
+        android:layout_marginTop="10dp"
+        android:textSize="20dp"
+        android:layout_marginStart="10dp"
+        />
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/bt_creatAccont_id"
+        android:layout_toRightOf="@id/tv_loginText_id"
+        android:text="log in"
+        android:textSize="20dp"
+        android:id="@+id/bt_logIn_id"
+
+        />
+
+
+
+
+
+
+
+</RelativeLayout>

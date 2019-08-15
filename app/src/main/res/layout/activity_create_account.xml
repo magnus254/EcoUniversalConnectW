@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CreateAccount"
+    android:background="@drawable/create2"
+    >
+
+
+
+
+    <EditText
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:layout_marginStart="20dp"
+        android:textColor="@color/colorBlack"
+        android:id="@+id/et_createEditName_id"
+        android:hint="Enter name"
+        android:textColorHint="@color/colorBlack"
+         android:textSize="30dp"
+        android:layout_centerHorizontal="true"
+
+
+        />
+
+
+        />
+    <EditText
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:hint="Enter Email"
+        android:textColorHint="@color/colorBlack"
+        android:textSize="30dp"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="10dp"
+        android:layout_below="@id/et_createEditName_id"
+        android:id="@+id/et_createEmail_id"
+
+
+        />
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/et_createEmail_id"
+        android:hint="Enter Password"
+        android:textColorHint="@color/colorBlack"
+        android:textSize="30dp"
+        android:layout_marginStart="90dp"
+        android:layout_marginTop="20dp"
+        android:id="@+id/et_createEnterPassword_id"
+
+
+        />
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Confirm Password"
+        android:textColorHint="@color/colorBlack"
+        android:layout_below="@id/et_createEnterPassword_id"
+        android:layout_marginTop="20dp"
+        android:textSize="30dp"
+        android:layout_marginStart="90dp"
+        android:id="@+id/et_create_confirmPassword_id"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Finish"
+        android:layout_below="@id/et_create_confirmPassword_id"
+        android:layout_marginTop="230dp"
+        android:textSize="30dp"
+        android:textColor="@color/colorWhite"
+        android:background="@color/design_default_color_primary"
+        android:id="@+id/bt_createAc_finish_id"
+
+
+        />
+
+
+
+
+
+</RelativeLayout>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LogIn"
+    android:background="@drawable/leaf"
+    >
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Enter Name"
+        android:textColorHint="@color/colorWhite"
+        android:textColor="@color/colorWhite"
+
+        android:layout_marginTop="250dp"
+        android:textSize="30dp"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/et_enterUserName_id"
+
+        />
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Enter Password"
+        android:layout_below="@id/et_enterUserName_id"
+        android:layout_marginTop="20dp"
+        android:textSize="30dp"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/et_logInEnterPassword_id"
+        android:textColorHint="@color/colorWhite"
+        android:textColor="@color/colorWhite"
+        />
+    <Button
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:text="next"
+        android:textSize="30dp"
+        android:layout_below="@id/et_logInEnterPassword_id"
+        android:layout_marginStart="10dp"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/bt_loginNext_id"
+        android:background="@color/colorPrimary"
+
+
+
+        />
+    <Button
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/bt_loginNext_id"
+        android:text="home"
+        android:textSize="30dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:id="@+id/bt_logInHome_id"
+        android:background="@color/colorPrimary"
+        />
+
+
+
+
+
+
+
+
+</RelativeLayout>
